@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: bisque;
+}
+
+.container {
+    margin-inline: 3.5rem;
+}
+
+.header-text {
+    margin-block: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-holder {
+    margin-right: 2rem;
+    position: relative;
+    display: block;
+    z-index: 0;
+
+}
+
+.background-image {
+    position:relative;
+    z-index: 1;
+    display: block;
+    align-items: center;
+}
+
+.facebook-image {
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    display: block;
+
+}
+
+.whatsapp-image {
+    position: absolute;
+    z-index: 3;
+    display: block;
+    top: 5px;
+}
+
+.twitter-image {
+    position: absolute;
+    z-index: 4;
+    display: block;
+    top: 5px;
+}
+
+.ig-image {
+    position: absolute;
+    z-index: 5;
+    display: block;
+    top: 5px;
+}
+
+.drop-down {
+    position: relative;
+} 
+
+select {
+    padding: 1rem;
+    margin-block: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    
+}
+
